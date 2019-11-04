@@ -20,26 +20,27 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 
-  aoh_two = {
+  aoh_two = 
+  {
     :DON_G => {
-      name:  "Don Gately",
-      occupation: "Live-in Staff"
+      :name =>  "Don Gately",
+      :occupation => "Live-in Staff"
     },
     :JOELLE_VD => {
-      name:  "Joelle van Dyne",
-      occupation: "Radio Personality"
+      :name =>  "Joelle van Dyne",
+      :occupation => "Radio Personality"
     },
     :PAT_M => {
-      name: "Pat Monteseian",
-      occupation: "Staff"
+      :name => "Pat Monteseian",
+      :occupation => "Staff"
     },
     :KATE_G => {
-      name:  "Kate Gompert",
-      occupation: "None"
+      :name =>  "Kate Gompert",
+      :occupation => "None"
     },
     :BRUCE_G => {
-      name:  "Bruce Green",
-      occupation: "Fan of Mildred"
+      :name =>  "Bruce Green",
+      :occupation => "Fan of Mildred"
   }}
 
   p aoh_two
