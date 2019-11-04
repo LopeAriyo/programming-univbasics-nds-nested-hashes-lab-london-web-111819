@@ -21,7 +21,7 @@ def literal_aoh
   # held in the constants
 
   aoh_two =
-  {
+  [
     :DON_G => {
       :name =>  "Don Gately",
       :occupation => "Live-in Staff"
@@ -41,7 +41,7 @@ def literal_aoh
     :BRUCE_G => {
       :name =>  "Bruce Green",
       :occupation => "Fan of Mildred"
-  }}
+  }]
 
   p aoh_two
 end
