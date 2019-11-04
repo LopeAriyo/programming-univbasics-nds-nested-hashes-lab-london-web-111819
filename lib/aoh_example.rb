@@ -10,9 +10,9 @@ def assembled_aoh
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
 
-  array_one = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
+  aoh_one = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
 
-  p array_one
+  p aoh_one
 
 end
 
@@ -20,13 +20,15 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 
-  array_two = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
+  aoh_two = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G] # incorrect
 
-
-  p array_two
+  p aoh_two
 end
 
 def aoh_lookup(aoh, row, key)
+
+lookup = aoh[row][key]
+  
 end
 
 def aoh_update(aoh, row, key, new_value)
